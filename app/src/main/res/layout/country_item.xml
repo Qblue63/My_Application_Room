@@ -15,6 +15,18 @@
         <variable
             name="flag"
             type="String" />
+
+        <variable
+            name="region"
+            type="String" />
+
+        <variable
+            name="population"
+            type="String" />
+
+        <variable
+            name="area"
+            type="String" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout

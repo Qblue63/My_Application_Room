@@ -25,6 +25,9 @@ class CountryAdapter(private val countries: List<Country>) :
         holder.binding.apply {
             country = currentCountry.name
             capital = currentCountry.capital
+//            region = currentCountry.region
+//            population = currentCountry.population.toString()
+//            area = currentCountry.area.toString()
 
             Glide
                 .with(this.root.context)
